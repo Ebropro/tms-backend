@@ -1,0 +1,49 @@
+## Build output
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+Logs/
+logs/
+
+## .NET secrets (important if used later)
+secrets.json
+
+## Publish output
+publish/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.ldf
+*.mdf
+
+node_modules/
+dist/
+*.js
+*.js.map
+*.d.ts
+!src/**/*.d.ts
+
+
+# Local development configuration
+**/appsettings.Development.json

@@ -1,0 +1,28 @@
+@TmsApi_HostAddress = http://localhost:5006
+
+GET {{TmsApi_HostAddress}}GET/api/courses
+Accept: application/json
+
+# POST {{TmsApi_HostAddress}}/api/enrollments
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "studentId":"S-001",
+#     "courseCode":"CS-101"
+# }
+
+
+###
+# PUT http://localhost:5006/api/students/1
+# Content-Type: application/json
+
+# {
+#   "id": 1,
+#   "registrationNumber": "TMS-2026-0001",
+#   "name": "Updated Name A",
+#   "age": 22,
+#   "gpa": 3.80,
+#   "isActive": true,
+#   "version": 0
+# }
